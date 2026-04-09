@@ -1,0 +1,67 @@
+K. Yasmin
+Frontend Developer | Aspiring Full Stack Developer
+
+Email: yasmink.ug.25.cs@francisxavier.ac.in
+Phone: +91 97897 89834
+LinkedIn: https://www.linkedin.com/in/yasmin-k-2424563a2
+GitHub: https://github.com/Yasmin-K-01
+
+PROFILE
+I am a Computer Science Engineering student who enjoys creating clean,
+thoughtful, and user-friendly digital experiences. My work combines
+frontend design, problem solving, and continuous learning. I am especially
+interested in building interfaces that feel modern, responsive, and useful
+rather than ordinary.
+
+WHAT MAKES ME DIFFERENT
+- I focus on both visual presentation and logical problem solving
+- I enjoy turning simple student projects into polished experiences
+- I learn consistently and improve by building real work, not only by theory
+- I value clarity, discipline, and clean execution in every project
+
+CORE SKILLS
+- HTML, CSS, JavaScript
+- React fundamentals
+- Responsive web design
+- Git and GitHub
+- MySQL basics
+- Python and C
+- Problem solving and logical thinking
+
+EDUCATION
+B.E. Computer Science Engineering
+Francis Xavier Engineering College
+2025 - 2029
+
+SELECTED PROJECTS
+Modern Calculator
+- Built a responsive calculator interface with clean layout, interactive logic,
+  and a user-friendly design.
+
+Shopping Landing Page
+- Created a visually appealing shopping-style web page focused on layout,
+  styling, and frontend presentation.
+
+Flame Detection System
+- Worked on an IoT-based safety project using embedded concepts and sensors
+  for alert-focused monitoring.
+
+Student Portfolio Template
+- Designed a personal portfolio concept with responsive sections, modern UI,
+  and a stronger personal brand presentation.
+
+CERTIFICATIONS
+- Java Programming - Oracle Academy
+- Cybersecurity Analyst Job Simulation - Forage
+- Prompt Engineering for Everyone - Cognitive
+- Building a Machine Learning Ready Organization - AWS
+- Building and Deploying Applications with Google AI Studio - GUVI | HCL
+
+ACHIEVEMENT
+- Paper presentation on IoT based alert and notification system for smart home
+- 1st Prize in Anna University Zonal Tournament in Chess
+
+CAREER GOAL
+To grow into a confident full stack developer who creates meaningful products,
+communicates ideas clearly, and stands out through both technical ability and
+design awareness.
