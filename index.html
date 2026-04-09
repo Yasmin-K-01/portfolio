@@ -3,142 +3,381 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>K. Yasmin | Portfolio</title>
+  <title>K. Yasmin | Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Modern student developer portfolio for K. Yasmin featuring projects, skills, education, certifications, and contact details."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-orb bg-orb-one"></div>
+  <div class="bg-orb bg-orb-two"></div>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <h2 class="logo">K. Yasmin</h2>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certificates">Certificates</a></li>
-      <li><a href="#achievements">Achievements</a></li>
-      <li><a href="#coding">Coding</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a class="brand" href="#home">Yasmin</a>
 
-  <!-- Hero -->
-  <header class="hero">
-    <h1>Hello, I'm <span>K. Yasmin</span></h1>
-    <p>B.E CSE Student | Python Programmer | Problem Solver</p>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Switch color theme">
+            <span class="theme-toggle-text">Dark</span>
+          </button>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      I am a B.E Computer Science Engineering student with interest in Python programming
-      and problem solving. I am passionate about learning new technologies and building
-      real-time projects. I practice coding on LeetCode to improve my logical thinking and
-      technical skills.
-    </p>
-  </section>
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="section-kicker">Available for internships and freelance projects</p>
+          <h1>K. Yasmin</h1>
+          <h2>Frontend Developer and Aspiring Full Stack Developer</h2>
+          <p class="hero-text">
+            I build clean, responsive, and user-focused web experiences with a strong
+            interest in modern UI, scalable code, and meaningful digital products.
+          </p>
 
-  <!-- Education -->
-  <section id="education" class="section">
-    <h2>Education</h2>
-    <div class="info-card">
-      <h3>B.E Computer Science Engineering</h3>
-      <p>Francis Xavier Engineering College</p>
-      <p>Year: 2025 – 2029</p>
-    </div>
-  </section>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Hire Me</a>
+            <a class="button button-secondary" href="resume.txt" download="Yasmin-Resume.txt">Download Resume</a>
+          </div>
 
-  <!-- Skills -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">Python</div>
-      <div class="skill-card">C</div>
-      <div class="skill-card">HTML</div>
-      <div class="skill-card">CSS</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">Problem Solving</div>
-      <div class="skill-card">Git & GitHub</div>
-    </div>
-  </section>
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <strong>04+</strong>
+              <span>featured projects</span>
+            </div>
+            <div class="metric-card">
+              <strong>21+</strong>
+              <span>coding problems solved</span>
+            </div>
+            <div class="metric-card">
+              <strong>07</strong>
+              <span>certifications earned</span>
+            </div>
+          </div>
+        </div>
 
-  <!-- Projects -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
+        <div class="hero-visual reveal">
+          <div class="hero-card hero-card-main">
+            <p class="card-label">Profile Snapshot</p>
+            <h3>Building polished interfaces with thoughtful detail.</h3>
+            <p>
+              Focused on HTML, CSS, JavaScript, React, Git, and strong fundamentals
+              in problem solving and database concepts.
+            </p>
+            <div class="hero-tags">
+              <span>Responsive UI</span>
+              <span>Modern CSS</span>
+              <span>React Basics</span>
+            </div>
+          </div>
 
-    <div class="project-grid">
-
-      <!-- Project 1 -->
-      <div class="project-card">
-        <h3>Web Calculator</h3>
-        <p>A simple web based calculator built using HTML, CSS, and JavaScript.</p>
-        <p><b>Tech Stack:</b> HTML, CSS, JavaScript</p>
-        <a href="https://github.com/Yasmin-K-01" target="_blank">View on GitHub</a>
+          <div class="hero-card hero-card-float">
+            <p class="card-label">Current Goal</p>
+            <p>Grow into a full stack developer by building real projects and shipping better user experiences.</p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <!-- Project 2 -->
-      <div class="project-card">
-        <h3>Shopping Web Page</h3>
-        <p>A shopping style web page created using front-end technologies.</p>
-        <p><b>Tech Stack:</b> HTML, CSS, JavaScript</p>
-        <a href="https://github.com/Yasmin-K-01" target="_blank">View on GitHub</a>
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">About Me</p>
+          <h2>Student developer with a passion for elegant, practical web experiences.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel reveal">
+            <p>
+              I am a Computer Science Engineering student who enjoys blending creativity
+              with logic to build interfaces that feel modern, intuitive, and reliable.
+              I am especially interested in frontend development, clean design systems,
+              and projects that solve real problems.
+            </p>
+            <p>
+              My career objective is to become a confident full stack developer by
+              continuously learning, contributing to impactful products, and sharpening
+              both technical and communication skills.
+            </p>
+          </article>
+
+          <aside class="about-side reveal">
+            <div class="info-card">
+              <p class="card-label">Core Strengths</p>
+              <ul class="simple-list">
+                <li>Problem solving and consistency</li>
+                <li>Responsive frontend design</li>
+                <li>Strong learning mindset</li>
+                <li>Team collaboration and adaptability</li>
+              </ul>
+            </div>
+
+            <div class="info-card">
+              <p class="card-label">Quick Intro</p>
+              <p>Based in India, actively learning web technologies and building student projects with modern tools.</p>
+            </div>
+          </aside>
+        </div>
       </div>
+    </section>
 
-      <!-- Project 3 -->
-      <div class="project-card">
-        <h3>Flame Detection IoT System</h3>
-        <p>An embedded IoT flame detection sensor project for safety alert systems.</p>
-        <p><b>Tech Stack:</b> Embedded C, Arduino / ESP32, Sensors</p>
-        <a href="https://github.com/Yasmin-K-01" target="_blank">View on GitHub</a>
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Skills</p>
+          <h2>Technical skills presented with clarity and real focus areas.</h2>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-bars reveal">
+            <article class="skill-progress">
+              <div class="skill-head"><span>HTML</span><span>95%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="95%"></div></div>
+            </article>
+            <article class="skill-progress">
+              <div class="skill-head"><span>CSS</span><span>92%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="92%"></div></div>
+            </article>
+            <article class="skill-progress">
+              <div class="skill-head"><span>JavaScript</span><span>85%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="85%"></div></div>
+            </article>
+            <article class="skill-progress">
+              <div class="skill-head"><span>React</span><span>78%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="78%"></div></div>
+            </article>
+            <article class="skill-progress">
+              <div class="skill-head"><span>Git</span><span>80%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="80%"></div></div>
+            </article>
+            <article class="skill-progress">
+              <div class="skill-head"><span>MySQL</span><span>72%</span></div>
+              <div class="progress-track"><div class="progress-fill" data-width="72%"></div></div>
+            </article>
+          </div>
+
+          <div class="skills-icons reveal">
+            <div class="skill-chip">HTML5</div>
+            <div class="skill-chip">CSS3</div>
+            <div class="skill-chip">JavaScript</div>
+            <div class="skill-chip">React</div>
+            <div class="skill-chip">GitHub</div>
+            <div class="skill-chip">MySQL</div>
+            <div class="skill-chip">Python</div>
+            <div class="skill-chip">C</div>
+          </div>
+        </div>
       </div>
+    </section>
 
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Projects</p>
+          <h2>Interactive project cards designed to feel polished and premium.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal tilt-card">
+            <div class="project-top">
+              <span class="project-badge">Frontend</span>
+              <h3>Modern Calculator</h3>
+              <p>A responsive calculator app with a neat layout, keyboard support, and smooth micro-interactions.</p>
+            </div>
+            <p class="project-stack">HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://github.com/Yasmin-K-01" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" aria-label="Live demo placeholder">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <div class="project-top">
+              <span class="project-badge">UI Design</span>
+              <h3>Shopping Landing Page</h3>
+              <p>A stylish ecommerce-inspired landing page focused on layout hierarchy, branding, and responsive design.</p>
+            </div>
+            <p class="project-stack">HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://github.com/Yasmin-K-01" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" aria-label="Live demo placeholder">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <div class="project-top">
+              <span class="project-badge">IoT</span>
+              <h3>Flame Detection System</h3>
+              <p>A safety-focused embedded system that detects fire indicators and supports faster notification workflows.</p>
+            </div>
+            <p class="project-stack">Embedded C, Arduino, Sensors</p>
+            <div class="project-links">
+              <a href="https://github.com/Yasmin-K-01" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" aria-label="Live demo placeholder">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal tilt-card">
+            <div class="project-top">
+              <span class="project-badge">Web App</span>
+              <h3>Student Portfolio Template</h3>
+              <p>A personal portfolio concept with theme switching, smooth scrolling, responsive sections, and project showcases.</p>
+            </div>
+            <p class="project-stack">HTML, CSS, JavaScript</p>
+            <div class="project-links">
+              <a href="https://github.com/Yasmin-K-01" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" aria-label="Live demo placeholder">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Education</p>
+          <h2>Academic journey built on curiosity, discipline, and steady growth.</h2>
+        </div>
+
+        <div class="timeline-card reveal">
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>B.E. Computer Science Engineering</h3>
+            <p class="timeline-title">Francis Xavier Engineering College | 2025 - 2029</p>
+            <p>
+              Building a strong academic foundation in computer science while working on
+              frontend projects, coding practice, and embedded systems concepts.
+            </p>
+            <ul class="simple-list">
+              <li>Paper presentation on IoT based smart home alert systems</li>
+              <li>Consistent self-learning in web development and problem solving</li>
+              <li>Active portfolio and project building alongside coursework</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Certifications</p>
+          <h2>Courses and certifications that strengthen my practical foundation.</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <h3>Java Programming</h3>
+            <p>Oracle Academy</p>
+          </article>
+          <article class="cert-card reveal">
+            <h3>Cybersecurity Analyst Job Simulation</h3>
+            <p>Forage</p>
+          </article>
+          <article class="cert-card reveal">
+            <h3>Prompt Engineering for Everyone</h3>
+            <p>Cognitive</p>
+          </article>
+          <article class="cert-card reveal">
+            <h3>Machine Learning Ready Organization</h3>
+            <p>AWS</p>
+          </article>
+          <article class="cert-card reveal">
+            <h3>Building and Deploying Applications with Google AI Studio</h3>
+            <p>GUVI | HCL</p>
+          </article>
+          <article class="cert-card reveal">
+            <h3>Paper Presentation on Smart Home Alerts</h3>
+            <p>Academic Event</p>
+          </article>
+          <article class="cert-card reveal">
+            <h3>1st Prize in Anna University Zonal Tournament</h3>
+            <p>Chess Achievement</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Contact</p>
+          <h2>Let us create something meaningful together.</h2>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-panel reveal">
+            <h3>Get in touch</h3>
+            <p>I am open to internships, collaboration, and frontend development opportunities.</p>
+            <div class="contact-list">
+              <a href="mailto:yasmink.ug.25.cs@francisxavier.ac.in">yasmink.ug.25.cs@francisxavier.ac.in</a>
+              <a href="tel:+919789789834">+91 97897 89834</a>
+              <a href="https://www.linkedin.com/in/yasmin-k-2424563a2" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/Yasmin-K-01" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal">
+            <div class="form-grid">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Your email" />
+              </label>
+            </div>
+            <label>
+              <span>Subject</span>
+              <input type="text" name="subject" placeholder="Project or opportunity" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" placeholder="Tell me about your idea"></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 K. Yasmin. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Yasmin-K-01" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/yasmin-k-2424563a2" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:yasmink.ug.25.cs@francisxavier.ac.in">Email</a>
+      </div>
     </div>
-  </section>
-
-  <!-- Certificates -->
-  <section id="certificates" class="section">
-    <h2>Certificates</h2>
-    <ul class="list">
-      <li>Paper Presentation – IoT Based Alert & Notification System for Smart Home (Dr. SACOE)</li>
-      <li>Java Programming – Oracle Academy</li>
-      <li>Cybersecurity Analyst Job Simulation – Forage</li>
-      <li>Prompt Engineering for Everyone – Cognitive</li>
-      <li>Building Machine Learning Ready Organization – AWS</li>
-    </ul>
-  </section>
-
-  <!-- Achievements -->
-  <section id="achievements" class="section">
-    <h2>Achievements</h2>
-    <ul class="list">
-      <li>Chess Winner</li>
-    </ul>
-  </section>
-
-  <!-- Coding -->
-  <section id="coding" class="section">
-    <h2>Coding Practice</h2>
-    <div class="info-card">
-      <p><b>Platform:</b> LeetCode</p>
-      <p><b>Problems Solved:</b> 21</p>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <div class="contact-box">
-      <p><b>Email:</b> yasmink.ug.25.cs@francisxavier.ac.in</p>
-      <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/yasmin-k-2424563a2" target="_blank">Yasmin K</a></p>
-      <p><b>GitHub:</b> <a href="https://github.com/Yasmin-K-01" target="_blank">Yasmin-K-01</a></p>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 K. Yasmin | Portfolio </p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
